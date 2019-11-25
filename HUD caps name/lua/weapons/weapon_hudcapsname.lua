@@ -1,4 +1,4 @@
-SWEP.PrintName = "lowercase name"
+SWEP.PrintName = "UPPERCASE NAME"
 SWEP.Category = "HUD caps name"
 SWEP.DrawWeaponInfoBox = false
 SWEP.BounceWeaponIcon = false
@@ -28,7 +28,6 @@ function SWEP:Deploy()
 end
 
 function SWEP:Initialize()
-self.PrintName = "UPPERCASE NAME"
 end 
 
 function SWEP:Think()
